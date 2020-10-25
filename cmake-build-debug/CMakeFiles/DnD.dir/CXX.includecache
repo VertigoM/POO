@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mihai/CLionProjects/DnD/character.h
+specialization.h
+/home/mihai/CLionProjects/DnD/specialization.h
+races.h
+/home/mihai/CLionProjects/DnD/races.h
+
+/home/mihai/CLionProjects/DnD/dnd.cpp
+iostream
+-
+races.h
+/home/mihai/CLionProjects/DnD/races.h
+character.h
+/home/mihai/CLionProjects/DnD/character.h
+
+/home/mihai/CLionProjects/DnD/races.h
+string
+-
+iostream
+-
+
+/home/mihai/CLionProjects/DnD/specialization.h
+
