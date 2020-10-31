@@ -143,33 +143,6 @@ DnD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/build
 .PHONY : DnD/fast
 
-dnd.o: dnd.cpp.o
-
-.PHONY : dnd.o
-
-# target to build an object file
-dnd.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/dnd.cpp.o
-.PHONY : dnd.cpp.o
-
-dnd.i: dnd.cpp.i
-
-.PHONY : dnd.i
-
-# target to preprocess a source file
-dnd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/dnd.cpp.i
-.PHONY : dnd.cpp.i
-
-dnd.s: dnd.cpp.s
-
-.PHONY : dnd.s
-
-# target to generate assembly for a file
-dnd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/dnd.cpp.s
-.PHONY : dnd.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -206,9 +179,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DnD"
-	@echo "... dnd.o"
-	@echo "... dnd.i"
-	@echo "... dnd.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/DnD.dir/main.cpp.o CMakeFiles/DnD.dir/dnd.cpp.o  -o DnD 
+/usr/bin/c++  -g   CMakeFiles/DnD.dir/main.cpp.o  -o DnD 

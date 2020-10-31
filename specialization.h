@@ -7,6 +7,10 @@ private:
     virtual void atack();
     virtual void defend();
 public:
+    //Fire mage spells
+    virtual void Fire_ball() { }
+    virtual void Fire_nova() { }
+    virtual void Pyro_blast() { }
     Specialization();
     void do_atack();
     void do_defend();
@@ -19,7 +23,7 @@ public:
 Specialization::Specialization() = default;
 
 Specialization::Specialization (const std::string& name):
-    _name(name){ }
+        _name(name){ }
 
 std::string Specialization::get_name () const{
     return this -> _name;
@@ -40,6 +44,10 @@ void Specialization::do_defend() { defend(); }
 class Wizzard : public Specialization{
 public:
     Wizzard();
+    virtual void Fire_ball() { }
+    virtual void Fire_novs() { }
+    virtual void Pyro_blast() { }
+    void cast_poof();
     void atack() override;
     void defend() override;
 };
@@ -52,29 +60,29 @@ void Wizzard::defend() {
     std::cout << "Protecc with the mantle" << std::endl;
 }
 
-/*class Fire_wizzard : public Wizzard{
+class Fire_wizzard : public Wizzard{
 public:
-
+    virtual void Fire_ball () final;
+    virtual void Fire_nova() final;
+    virtual void Pyro_blast() final;
 };
-*/
+
 
 Wizzard::Wizzard():
-    Specialization("Wizzard") { }
+        Specialization("Wizzard") { }
 
-/*void Wizzard::cast_poof() {
+void Wizzard::cast_poof() {
     std::cout << "Makes something go POOF";
 }
 
 void Fire_wizzard::Fire_ball() {
-    std::cout << "Fireball! A small ball of flames hurls through the air.";
+    std::cout << "Fireball! A small ball of flames hurls through the air.\n";
 }
 
 void Fire_wizzard::Fire_nova() {
     std::cout << "Fire nova! A sea of flames starts engulfing everything around the pyromaniac!";
 }
-
 void Fire_wizzard::Pyro_blast() {
     std::cout << "Pyroblast! A humongous fire sphere starts forming above the fire archmage. This is the end!";
 }
-*/
 #endif //DND_SPECIALIZATION_H

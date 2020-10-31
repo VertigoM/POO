@@ -7,18 +7,26 @@
 #IncludeRegexTransform: 
 
 /home/mihai/CLionProjects/DnD/character.h
+dummy.h
+/home/mihai/CLionProjects/DnD/dummy.h
 specialization.h
 /home/mihai/CLionProjects/DnD/specialization.h
 races.h
 /home/mihai/CLionProjects/DnD/races.h
 
-/home/mihai/CLionProjects/DnD/dnd.cpp
+/home/mihai/CLionProjects/DnD/dummy.h
+iostream
+-
+
+/home/mihai/CLionProjects/DnD/main.cpp
 iostream
 -
 races.h
 /home/mihai/CLionProjects/DnD/races.h
 character.h
 /home/mihai/CLionProjects/DnD/character.h
+dummy.h
+/home/mihai/CLionProjects/DnD/dummy.h
 
 /home/mihai/CLionProjects/DnD/races.h
 string

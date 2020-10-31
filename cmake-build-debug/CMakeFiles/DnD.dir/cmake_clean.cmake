@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DnD.dir/dnd.cpp.o"
   "CMakeFiles/DnD.dir/main.cpp.o"
   "DnD"
   "DnD.pdb"
