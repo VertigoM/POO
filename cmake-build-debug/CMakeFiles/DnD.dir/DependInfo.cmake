@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mihai/CLionProjects/DnD/character.cpp" "/home/mihai/CLionProjects/DnD/cmake-build-debug/CMakeFiles/DnD.dir/character.cpp.o"
   "/home/mihai/CLionProjects/DnD/main.cpp" "/home/mihai/CLionProjects/DnD/cmake-build-debug/CMakeFiles/DnD.dir/main.cpp.o"
+  "/home/mihai/CLionProjects/DnD/race.cpp" "/home/mihai/CLionProjects/DnD/cmake-build-debug/CMakeFiles/DnD.dir/race.cpp.o"
+  "/home/mihai/CLionProjects/DnD/specialization.cpp" "/home/mihai/CLionProjects/DnD/cmake-build-debug/CMakeFiles/DnD.dir/specialization.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

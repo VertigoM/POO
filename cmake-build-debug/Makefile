@@ -143,6 +143,33 @@ DnD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/build
 .PHONY : DnD/fast
 
+character.o: character.cpp.o
+
+.PHONY : character.o
+
+# target to build an object file
+character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/character.cpp.o
+.PHONY : character.cpp.o
+
+character.i: character.cpp.i
+
+.PHONY : character.i
+
+# target to preprocess a source file
+character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/character.cpp.i
+.PHONY : character.cpp.i
+
+character.s: character.cpp.s
+
+.PHONY : character.s
+
+# target to generate assembly for a file
+character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/character.cpp.s
+.PHONY : character.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -170,6 +197,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+race.o: race.cpp.o
+
+.PHONY : race.o
+
+# target to build an object file
+race.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/race.cpp.o
+.PHONY : race.cpp.o
+
+race.i: race.cpp.i
+
+.PHONY : race.i
+
+# target to preprocess a source file
+race.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/race.cpp.i
+.PHONY : race.cpp.i
+
+race.s: race.cpp.s
+
+.PHONY : race.s
+
+# target to generate assembly for a file
+race.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/race.cpp.s
+.PHONY : race.cpp.s
+
+specialization.o: specialization.cpp.o
+
+.PHONY : specialization.o
+
+# target to build an object file
+specialization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/specialization.cpp.o
+.PHONY : specialization.cpp.o
+
+specialization.i: specialization.cpp.i
+
+.PHONY : specialization.i
+
+# target to preprocess a source file
+specialization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/specialization.cpp.i
+.PHONY : specialization.cpp.i
+
+specialization.s: specialization.cpp.s
+
+.PHONY : specialization.s
+
+# target to generate assembly for a file
+specialization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DnD.dir/build.make CMakeFiles/DnD.dir/specialization.cpp.s
+.PHONY : specialization.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +260,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DnD"
+	@echo "... character.o"
+	@echo "... character.i"
+	@echo "... character.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... race.o"
+	@echo "... race.i"
+	@echo "... race.s"
+	@echo "... specialization.o"
+	@echo "... specialization.i"
+	@echo "... specialization.s"
 .PHONY : help
 
 

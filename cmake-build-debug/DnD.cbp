@@ -82,16 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mihai/CLionProjects/DnD/character.h">
+		<Unit filename="/home/mihai/CLionProjects/DnD/character.cpp">
 			<Option target="DnD"/>
 		</Unit>
-		<Unit filename="/home/mihai/CLionProjects/DnD/dummy.h">
+		<Unit filename="/home/mihai/CLionProjects/DnD/character.h">
 			<Option target="DnD"/>
 		</Unit>
 		<Unit filename="/home/mihai/CLionProjects/DnD/main.cpp">
 			<Option target="DnD"/>
 		</Unit>
-		<Unit filename="/home/mihai/CLionProjects/DnD/races.h">
+		<Unit filename="/home/mihai/CLionProjects/DnD/race.cpp">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/home/mihai/CLionProjects/DnD/race.h">
+			<Option target="DnD"/>
+		</Unit>
+		<Unit filename="/home/mihai/CLionProjects/DnD/specialization.cpp">
 			<Option target="DnD"/>
 		</Unit>
 		<Unit filename="/home/mihai/CLionProjects/DnD/specialization.h">

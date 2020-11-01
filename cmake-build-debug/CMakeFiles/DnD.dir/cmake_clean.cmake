@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DnD.dir/character.cpp.o"
   "CMakeFiles/DnD.dir/main.cpp.o"
+  "CMakeFiles/DnD.dir/race.cpp.o"
+  "CMakeFiles/DnD.dir/specialization.cpp.o"
   "DnD"
   "DnD.pdb"
 )
